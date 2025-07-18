@@ -1,0 +1,15 @@
+GWAS – from clean data to functional interpretation.
+
+3 files attached – the map file, actual genotypes and a file with the phenotypes. It all lines up, so should be quite easy to run.
+The genotypes are from sheep and the map has been set on the latest version of the assembly.
+The phenotypes are residuals after adjusting for fixed effects (make sure to discuss what this means in the report). It is not a real phenotype. 
+
+Analysis suggestions:
+Run a GWAS
+Build a manhattan plot of results
+Identify top SNP
+Map the top ones to the genomic region and search for neighbouring genes (get a list of those). 
+Summarize the genes you found (what do they do).
+
+Note: do not expect great results or anything meaningful from the gene list, it’s too small a dataset for real applications (and there’s some data fudging as well!). But it is not too large to handle – should be quite manageable on any computer. 
+An example of a GWAS paper is also attached - for reference purposes only.
